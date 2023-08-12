@@ -1,0 +1,128 @@
+export const HotelList = [
+    {
+      id: 1,
+      city: "lucknow",
+      img: "https://travelji.com/wp-content/uploads/Hotel-Tips.jpg",
+      price: "Rs 10,000",
+    },
+    {
+      id: 2,
+      city: "Mumbai",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqg5siFywtSULLeH0eaN3k6cBQy_HSnJpJGQ&usqp=CAU",
+      price: "Rs 5,000",
+    },
+    {
+      id: 3,
+      city: "Kolkata",
+      img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lpibo-ew-1656015868.jpg",
+      price: "Rs 9,000",
+    },
+    {
+      id: 4,
+      city: "Delhi",
+      img: "https://www.travelandleisure.com/thmb/BJupPeakYV7RY_vQQnmvrKAl7LU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/soneva-jani-sunset-view-maldives-SONEVA0421-74b37591d80441ce87831a41da518e49.jpg",
+      price: "Rs 8,000",
+    },
+    {
+      id: 5,
+      city: " Panaji",
+      img: "https://i0.wp.com/theluxuryeditor.com/wp-content/uploads/2019/02/178793622.jpg?resize=1024%2C683",
+      price: "Rs 10,000",
+    },
+    {
+      id: 6,
+      city: " Madurai",
+      img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lpibo-ew-1656015868.jpg",
+      price: "Rs 5,000",
+    },
+    {
+      id: 7,
+      city: "Mysore",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqg5siFywtSULLeH0eaN3k6cBQy_HSnJpJGQ&usqp=CAU",
+      price: "Rs 7,000",
+    },
+    {
+      id: 8,
+      city: "Amritsar",
+      img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lpibo-ew-1656015868.jpg",
+      price: "Rs 5,000",
+    },
+    {
+      id: 9,
+      city: "Jaisalmer",
+      img: "https://i0.wp.com/theluxuryeditor.com/wp-content/uploads/2019/02/178793622.jpg?resize=1024%2C683",
+      price: "Rs 8,000",
+    },
+    {
+      id: 10,
+      city: "Hyderabad",
+      img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lpibo-ew-1656015868.jpg",
+      price: "Rs 4,000",
+    },
+    {
+      id: 11,
+      city: "Pune",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqg5siFywtSULLeH0eaN3k6cBQy_HSnJpJGQ&usqp=CAU",
+      price: "Rs 8,000",
+    },
+    {
+      id: 12,
+      city: "Udaipur",
+      img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lpibo-ew-1656015868.jpg",
+      price: "Rs 7,000",
+    },
+    {
+      id: 13,
+      city: "Chennai",
+      img: "https://th.bing.com/th/id/R.892007e24421ed9bcfe76ac729e1a857?rik=JRPnsJ5U9v%2fwAA&riu=http%3a%2f%2fimg.ev.mu%2fbabylon%2fme%2fmeh%2fhotel-pas-cher.jpg&ehk=SzNPzFuG1Re1wUwsJgbY2BSKNTczZlyyQ20XleLhBZU%3d&risl=&pid=ImgRaw&r=0",
+      price: "Rs 5,000",
+    },
+    {
+      id: 14,
+      city: "Kochi",
+      img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lpibo-ew-1656015868.jpg",
+      price: "Rs 9,000",
+    },
+    {
+      id: 15,
+      city: "Varanasi",
+      img: "https://th.bing.com/th/id/OIP.SwkabKtuIqwGJNrf64wYPQHaD6?pid=ImgDet&w=5486&h=2894&rs=1",
+      price: "Rs 8,000",
+    },
+    {
+      id: 16,
+      city: "Bangalore",
+      img: "https://i0.wp.com/theluxurytravelexpert.com/wp-content/uploads/2019/09/TAJ-MAHAL-HOTEL.jpeg?resize=678%2C382&ssl=1",
+      price: "Rs 14,000",
+    },
+    {
+      id: 17,
+      city: "Jaipur",
+      img: "https://th.bing.com/th/id/OIP.nruUvSv1DUZdN0fiGeVNLAAAAA?pid=ImgDet&rs=1",
+      price: "Rs 11,000",
+    },
+    {
+      id: 18,
+      city: "Jaipur",
+      img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lpibo-ew-1656015868.jpg",
+      price: "Rs 6,000",
+    },
+    {
+      id: 19,
+      city: "lucknow",
+      img: "https://travelji.com/wp-content/uploads/Hotel-Tips.jpg",
+      price:"Rs 18,000",
+    },
+    {
+      id: 20,
+      city: "Mumbai",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqg5siFywtSULLeH0eaN3k6cBQy_HSnJpJGQ&usqp=CAU",
+      price:"Rs 5,000",
+    },
+    {
+      id: 21,
+      city: "Kolkata",
+      img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lpibo-ew-1656015868.jpg",
+      price:"Rs 10,000",
+    }
+  ];

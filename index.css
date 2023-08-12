@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 35vh;
+  /* background-image: url("https://airbus-master.vercel.app/static/media/herosection_bg.75236ac9bea5ff3942ee.jpg"); */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color:  #2130b3;
+}
+
+.container .airbus-search-form .distination {
+  margin: 40px;
+  height: 25vh;
+ 
+  
+}
+.container .airbus-search-form .flight_title{
+  margin-left: 190px;
+   font-size: 30px;
+   color: white;
+}
+.container .airbus-search-form .distination #airbus-text {
+  align-self: flex-start;
+  font-family: -webkit-body;
+  font-size: 2em;
+  font-weight: 700;
+  margin-left: 5px;
+  color: white;  
+  /* text-align: center; */
+}
+.container .airbus-search-form .distination .searchForm {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  flex-direction: row;
+  padding-top: 60px;
+  border: 4px solid rgb(229, 159, 9);
+ 
+  height: 20vh;
+  border-radius: 10px;
+ 
+
+}
+.container .airbus-search-form .distination .searchForm #from, #depart , #return ,#to{
+  width: 150px;
+  padding: 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-bottom: 3px solid black;
+  letter-spacing: 2px;
+  font-weight: bold;
+  outline: none;
+
+
+
+}
+
+.container .airbus-search-form .distination .searchForm #search-btn{
+  width: 150px;
+  padding: 15px;
+ 
+  background-color: #ffeb3b;
+  border: #ffeb3b;
+  border-radius: 10px;
+  
+
+}
+label{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+/* .title {
+  background-color: #2130b3;
+  color: white;
+  padding: 20px;
+  font-size: 15px;
+  height: 25vh;
+} */
+.airbus {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.airbus button{
+  font-size: 2em;
+  color: white;
+  background:  transparent;
+  border: none;
+  outline: none;
+
+}
+#login{
+  cursor: pointer;
+}
+.airbus-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.airbus-logo img {
+  width: 45px;
+}
+
+
+/* no page found................ */
+
+.main-container-no-page{
+  width: 100%;
+  height: 65vh;
+  background-image: url("https://th.bing.com/th/id/R.953dd785698f1ba1bbb1c42cfafa850b?rik=UDfgtBknLPLyTw&riu=http%3a%2f%2fwww.natun-barta.com%2fimages%2fpage-not-found.png&ehk=jtQ%2b8GJnjgujG6Waf0cqg1dMC0O%2fnfwPtvCv75Hro6Q%3d&risl=&pid=ImgRaw&r=0");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 100px;
+  position: fixed;
+}
+.no_page_found {
+  color: black;
+ 
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/* loading spinner */
+
+
+.loading{
+  width: 100px;
+  height: 100px;
+  margin: 100px 0 0 400px;
+}
+@media screen and (max-width: 768px) {
+  .container .airbus-search-form .distination {
+    margin: 20px;
+    height: auto;
+  }
+
+  .container .airbus-search-form .flight_title {
+    margin-left: 20px;
+    font-size: 20px;
+  }
+
+  .container .airbus-search-form .distination #airbus-text {
+    font-size: 1.5em;
+    margin-left: 5px;
+  }
+
+  .container .airbus-search-form .distination .searchForm {
+    flex-direction: column;
+    padding-top: 30px;
+    height: auto;
+  }
+
+  .container .airbus-search-form .distination .searchForm #from,
+  #depart,
+  #return,
+  #to {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-bottom: 2px solid black;
+  }
+
+  .container .airbus-search-form .distination .searchForm #search-btn {
+    width: 100%;
+    padding: 10px;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  
+}
+
+

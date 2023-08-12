@@ -1,0 +1,89 @@
+
+.main-container{
+    padding: 100px;
+    
+   
+    
+}
+.main-container .hotel{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    gap: 40px;
+     
+   
+}
+
+.main-container .hotel .box img{
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;    border-radius: 30px;
+   
+    cursor: pointer;
+   
+}
+.main-container .hotel .box img:hover{
+   content: payment;
+   color: black;
+   
+}
+.main-container .hotel .box .link{
+    text-decoration: none;
+  }
+  
+.main-container .hotel .box .cityName{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin: 30px;
+    
+}
+.main-container .hotel .box .cityName:hover{
+  color: red;
+}
+.main-container .hotel .box .cityName p{
+    color: red;
+    font-weight: bolder;
+    border-bottom: 2px solid red;
+}
+
+
+/* ============media quary ================ */
+
+
+
+@media only screen and (max-width: 767px) {
+    .main-container .hotel .box img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Media Query for screens between 768px and 1024px (e.g., tablets) */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .main-container {
+      padding: 60px;
+    }
+    .main-container .hotel .box img {
+      width: 250px;
+      height: 200px;
+      padding: 20px;
+    }
+  }
+  
+  /* Media Query for screens larger than 1024px (e.g., desktops) */
+  @media only screen and (min-width: 1025px) {
+    .main-container {
+      padding: 40px;
+    }
+    .main-container .hotel .box img {
+      width: 400px;
+      height: 300px;
+      padding: 30px;
+    }
+  }
+ 

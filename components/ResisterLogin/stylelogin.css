@@ -1,0 +1,112 @@
+.login-container{
+ 
+ width: 400px;
+ height: auto;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+ rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+ margin-left: 550px;
+ margin-top: 150px;
+
+}
+.login-container .login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+
+}
+.login-container  form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  
+}
+
+.login-container form input{
+  padding: 15px  50px ;
+  margin: 10px;
+ 
+
+}
+.login-container form #login-btn{
+ padding: 10px 120px;
+  background-color: blue;
+  margin: 10px;
+}
+.login-container form #signUp-btn{
+  padding: 10px 110px;
+  background-color: blue;
+  margin: 10px;
+}
+.login-container form #google-Auth-btn{
+  padding: 6px 65px;
+  background-color: blue;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-container form #google-Auth-btn span{
+  margin-left: 8px;
+}
+span{
+  margin-left: 5px;
+}
+
+.error{
+  font-size: 16px;
+  text-align: center;
+  color: red;
+  margin-top: -5px;
+  font-weight: bold;
+
+}
+
+/* media quary  ===============*/
+
+
+@media screen and (max-width: 768px) {
+  .login-container {
+   margin-left: 50px;
+   
+  }
+}
+
+/* Media query for screens with a maximum width of 480px (e.g., smartphones) */
+@media screen and (max-width: 480px) {
+  .login-container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: none;
+   
+  }
+
+  .login-container .login {
+    margin-top: 20px;
+  }
+
+  .login-container form #login-btn,
+  .login-container form #signUp-btn,
+  .login-container form #google-Auth-btn {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .login-container form input {
+    padding: 10px 30px;
+    margin: 5px;
+  }
+
+  .login-container form #google-Auth-btn span {
+    margin-left: 5px;
+  }
+
+  .error {
+    font-size: 8px;
+    margin-top: -3px;
+  }
+}

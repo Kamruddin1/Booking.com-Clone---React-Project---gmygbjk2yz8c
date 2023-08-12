@@ -1,0 +1,126 @@
+.bookingStatus-container {
+  padding: 100px;
+}
+.bookingStatus-container .outer-bookingStatus {
+  display: flex;
+  justify-content: space-around;
+
+  gap: 50px;
+}
+.bookingStatus-container .homePage {
+  text-align: center;
+  color: red;
+   cursor: pointer; 
+}
+.bookingStatus-container .homePage:hover{
+  color: rgb(68, 68, 198);
+
+}
+.bookingStatus-container .outer-bookingStatus .inner-bookingStatus {
+  width: 100%;
+  height: 70vh;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding: 50px;
+}
+
+.bookingStatus-container
+  .outer-bookingStatus
+  .inner-bookingStatus
+  .fare-summery {
+  display: flex;
+  justify-content: space-between;
+}
+.bookingStatus-container
+  .outer-bookingStatus
+  .inner-bookingStatus
+  .fare-summery
+  h1 {
+  padding-top: 70px;
+  border-bottom: 2px solid gray;
+  color: gray;
+  font-weight: 100;
+  width: 100%;
+}
+.bookingStatus-container .outer-bookingStatus .payAmount-bookingStatus {
+  width: 100%;
+  height: 70vh;
+  padding: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.bookingStatus-container
+  .outer-bookingStatus
+  .payAmount-bookingStatus
+  .input-field
+  input {
+  width: 100%;
+  height: 10vh;
+  margin-top: 10px;
+  padding: 10px;
+}
+.bookingStatus-container
+  .outer-bookingStatus
+  .payAmount-bookingStatus
+  .input-field
+  button,
+.payLoader {
+  margin-top: 15px;
+  padding: 10px 20px;
+  color: white;
+  background-color: rgb(25, 118, 210);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+#payLoader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#payLoader  {
+  margin-top: 20px;
+}
+
+
+/*  ====================== media quary ============ */
+
+
+
+@media only screen and (max-width: 767px) {
+  .bookingStatus-container {
+    padding: 50px;
+  }
+
+  .bookingStatus-container .outer-bookingStatus {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .bookingStatus-container .outer-bookingStatus .inner-bookingStatus,
+  .bookingStatus-container .outer-bookingStatus .payAmount-bookingStatus {
+    height: auto;
+    box-shadow: none;
+    padding: 20px;
+  }
+
+  .bookingStatus-container .outer-bookingStatus .payAmount-bookingStatus .input-field input {
+    height: 8vh;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .bookingStatus-container {
+    padding: 70px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .bookingStatus-container {
+    padding: 100px;
+  }
+}

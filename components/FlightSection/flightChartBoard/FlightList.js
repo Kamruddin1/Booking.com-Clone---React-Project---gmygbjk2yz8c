@@ -1,0 +1,190 @@
+export const FlightList = [
+  {
+    id: 1,
+    flightName: "Vistara",
+    location_one: "Delhi",
+    date: "023-02-11",
+    time: "10:00PM",
+    hours: "2hr 15min",
+
+    location_two: "Mumbai  Ahmedabad",
+    price: "₹5500",
+  },
+
+  {
+    id: 2,
+    flightName: "Indigo",
+    location_one: "Delhi",
+    date: "2023-02-12",
+    time: "10:00PM",
+    hours: "2hr 45min",
+
+    location_two: "Goa Mumbai",
+    price: "₹7500",
+  },
+  {
+    id: 3,
+    flightName: "Air Asia",
+    location_one: "Mumbai",
+    date: "2023-02-12",
+    time: "11:00AM",
+    hours: "2hr 30min",
+
+    location_two: "Kolkata",
+    price: "₹9000",
+  },
+  {
+    id: 4,
+    flightName: "Vistara",
+    location_one: "Kolkata",
+    date: "2023-02-18",
+    time: "11:30AM",
+    hours: "1hr 55min",
+
+    location_two: "Bangalore",
+    price: "₹9000",
+  },
+  {
+    id: 5,
+    flightName: "Air India",
+    location_one: "Chennai",
+    date: "2023-02-18",
+    time: "11:00AM",
+    hours: "2hr 15min",
+
+    location_two: "Kolkata",
+    price: "₹10000",
+  },
+  {
+    id: 6,
+    flightName: "Vistara",
+    location_one: "Varansi",
+    date: "2023-04-17",
+    time: "12:00AM",
+    hours: "4hr 15min",
+
+    location_two: "Kolkata",
+    price: "₹6000",
+  },
+  {
+    id: 7,
+    flightName: "Go Air",
+    location_one: "Varansi",
+    date: "2023-04-21 ",
+    time: "11:00A",
+    hours: "4hr 15min",
+
+    location_two: "Hyderabad",
+    price: "₹7000",
+  },
+  {
+    id: 8,
+    flightName: "Spicejet",
+    location_one: "Varansi",
+    date: "2023-04-25 ",
+    time: "11:00AM",
+    hours: "2hr 15min",
+
+    location_two: "Indore",
+    price: "₹4000",
+  },
+  {
+    id: 9,
+    flightName: "Indigo",
+    location_one: "Delhi",
+    date: "2023-04-27 ",
+    time: "11:00AM",
+    hours: "2hr 0min",
+
+    location_two: "Indore",
+    price: "₹6000",
+  },
+  {
+    id: 10,
+    flightName: "Spicejet",
+    location_one: "Lucknow",
+    date: "2023-04-25 ",
+    time: "11:00AM",
+    hours: "1hr 15min",
+
+    location_two: "Indore",
+    price: "₹6000",
+  },
+  {
+    id: 11,
+    flightName: "Go Air",
+    location_one: "Goa",
+    date: "2023-04-25 ",
+    time: "11:00AM",
+    hours: "1hr 15min",
+
+    location_two: "Indore",
+    price: "₹6000",
+  },
+  {
+    id: 12,
+    flightName: "Indigo",
+    location_one: "Varanasi",
+    date: "2023-04-25 ",
+    time: "11:00AM",
+    hours: "1hr 15min",
+
+    location_two: "Lucknow",
+    price: "₹6000",
+  },
+  {
+    id: 13,
+    flightName: "Spicejet",
+    location_one: "Chennai",
+    date: "2023-04-25 ",
+    time: "11:00AM",
+    hours: "1hr 15min",
+
+    location_two: "Goa",
+    price: "₹6000",
+  },
+  {
+    id: 14,
+    flightName: "Vistara",
+    location_one: "Hyderabad",
+    date: "2023-04-25 ",
+    time: "11:00AM",
+    hours: "1hr 15min",
+
+    location_two: "Goa",
+    price: "₹6000",
+  },
+  {
+    id: 15,
+    flightName: "Spicejet",
+    location_one: "Jaipur",
+    date: "2023-04-25 ",
+    time: "11:00AM",
+    hours: "1hr 15min",
+
+    location_two: "Goa",
+    price: "₹6000",
+  },
+  {
+    id: 17,
+    flightName: "Air India",
+    location_one: "Hyderabad",
+    date: "2023-04-25 ",
+    time: "11:00AM",
+    hours: "1hr 15min",
+
+    location_two: "Goa",
+    price: "₹6000",
+  },
+  {
+    id: 16,
+    flightName: "Vistara",
+    location_one: "Jaipur",
+    date: "2023-04-25 ",
+    time: "11:00AM",
+    hours: "1hr 15min",
+
+    location_two: "Delhi",
+    price: "₹6000",
+  },
+];

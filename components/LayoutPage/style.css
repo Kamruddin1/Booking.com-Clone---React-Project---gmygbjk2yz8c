@@ -1,0 +1,274 @@
+.container-homeNav {
+  width: 100%;
+  height: 25vh;
+  background: #2130b3;
+  color: white;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.container-homeNav .navbar .booking {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  font-size: 25px;
+}
+.container-homeNav .navbar .booking .bookingCom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.container-homeNav .navbar .booking .bookingCom img {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+}
+.container-homeNav .navbar .booking .resister-login {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  margin: 15px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.container-homeNav .navbar .booking .resister-login div:hover {
+  /* background-color: #476072; */
+  border-bottom: 2px solid white;
+}
+.container-homeNav .navbar .booking .resister-login img {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+}
+.container-homeNav .navbar .booking .resister-login button {
+  background-color: #2130b3;
+  border: none;
+
+  font-size: 20px;
+}
+.container-homeNav .navbar .booking .resister-login .sign {
+  color: white;
+  outline: none;
+  text-decoration: none;
+}
+/* =========================== */
+/*                flight section style                   */
+
+.container-homeNav .navbar .section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 100px;
+  margin-top: 30px;
+  margin-left: 190px;
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 10px;
+}
+.container-homeNav .navbar .section .section-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.container-homeNav .navbar .section-list:hover {
+  border-bottom: 2px solid white;
+}
+.userName {
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #2130b3;
+}
+
+/* lower section  */
+
+.lower_navbar {
+  width: 100%;
+  height: 35vh;
+  background-color: #2130b3;
+}
+.lower_navbar .hotel_stay .hotel_title h1 {
+  margin-left: 190px;
+  font-size: 80px;
+  color: white;
+}
+.lower_navbar .hotel_stay .hotel_title p {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 190px;
+  color: white;
+}
+.lower_navbar .hotel_stay .search_hotel_stay .city_name {
+  padding: 20px;
+  margin-left: 190px;
+  padding-right: 130px;
+  margin-top: 90px;
+  text-align: center;
+  border: 5px solid rgb(229, 159, 9);
+  outline: none;
+  font-size: 20px;
+}
+.lower_navbar .hotel_stay .search_hotel_stay .date {
+  padding: 20px 170px 20px 50px;
+  text-align: center;
+  border: 5px solid rgb(229, 159, 9);
+  outline: none;
+  font-size: 20px;
+}
+.lower_navbar .hotel_stay #hotel_search_btn {
+  background-color: blue;
+  padding: 22px 35px;
+  border-radius: 1px;
+  border: 5px solid rgb(229, 159, 9);
+  font-size: 20px;
+}
+.lower_navbar .hotel_stay #hotel_search_btn:hover {
+  background-color: #132af3;
+}
+
+/*   =====================media quary =================== */
+
+@media only screen and (max-width: 767px) {
+  .container-homeNav .navbar .booking {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .container-homeNav .navbar .booking .bookingCom {
+    flex-direction: row;
+    gap: 5px;
+  }
+  /* .container-homeNav .navbar .booking .bookingCom img {
+      width: 1px;
+      height: 1px;
+    } */
+  .container-homeNav .navbar .booking .resister-login {
+    flex-direction: row;
+    gap: 20px;
+    margin: 5px;
+    font-size: 18px;
+  }
+  .container-homeNav .navbar .booking .resister-login img {
+    width: 25px;
+    height: 25px;
+  }
+  .container-homeNav .navbar .booking .resister-login button {
+    font-size: 18px;
+  }
+  .container-homeNav .navbar .section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 0;
+    padding: 5px;
+  }
+  .lower_navbar .hotel_stay .hotel_title h1 {
+    margin-left: 30px;
+    font-size: 50px;
+  }
+  .lower_navbar .hotel_stay .hotel_title p {
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  .lower_navbar .hotel_stay .search_hotel_stay .city_name {
+    margin-left: 30px;
+    padding-right: 70px;
+    margin-top: 50px;
+  }
+  .lower_navbar .hotel_stay .search_hotel_stay .date {
+    padding: 15px 80px 15px 30px;
+  }
+  .lower_navbar .hotel_stay #hotel_search_btn {
+    padding: 15px 25px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .container-homeNav .navbar .booking {
+    justify-content: space-between;
+  }
+  .container-homeNav .navbar .booking .bookingCom {
+    gap: 8px;
+  }
+  .container-homeNav .navbar .booking .resister-login {
+    gap: 30px;
+  }
+  .container-homeNav .navbar .booking .resister-login img {
+    width: 27px;
+    height: 27px;
+  }
+  .container-homeNav .navbar .booking .resister-login button {
+    font-size: 19px;
+  }
+  .container-homeNav .navbar .section {
+    gap: 80px;
+  }
+  .lower_navbar .hotel_stay .hotel_title h1 {
+    font-size: 60px;
+  }
+  .lower_navbar .hotel_stay .hotel_title p {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  .lower_navbar .hotel_stay .search_hotel_stay .city_name {
+    padding: 25px;
+    margin-top: 70px;
+  }
+  .lower_navbar .hotel_stay .search_hotel_stay .date {
+    padding: 25px 130px 25px 40px;
+  }
+  .lower_navbar .hotel_stay #hotel_search_btn {
+    padding: 18px 30px;
+    font-size: 19px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .container-homeNav .navbar .booking .bookingCom {
+    gap: 10px;
+  }
+  .container-homeNav .navbar .booking .resister-login {
+    gap: 40px;
+  }
+  .container-homeNav .navbar .booking .resister-login img {
+    width: 30px;
+    height: 30px;
+  }
+  .container-homeNav .navbar .booking .resister-login button {
+    font-size: 20px;
+  }
+  .container-homeNav .navbar .section {
+    gap: 100px;
+    margin-left: 190px;
+  }
+  .lower_navbar .hotel_stay .hotel_title h1 {
+    font-size: 80px;
+  }
+  .lower_navbar .hotel_stay .hotel_title p {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  .lower_navbar .hotel_stay .search_hotel_stay .city_name {
+    padding: 20px;
+    margin-top: 90px;
+  }
+  .lower_navbar .hotel_stay .search_hotel_stay .date {
+    padding: 20px 170px 20px 50px;
+  }
+  .lower_navbar .hotel_stay #hotel_search_btn {
+    padding: 22px 35px;
+    font-size: 20px;
+  }
+}
